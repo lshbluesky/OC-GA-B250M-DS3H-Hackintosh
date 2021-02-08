@@ -31,7 +31,7 @@
 | 11 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
 ## ⚠️ Issues
-- The Sleep & Wake feature does not work.
+- The Sleep and Wake functions do not work.
   - It is speculated that there is a problem with the sleep and wake functions when using only the Intel HD Graphics 630 iGPU.
   - However, depending on whether the SMBus is loaded or not, the operation results of the Sleep and Wake functions will vary.
   - When SSDT-SBUS-MCHC.aml is loaded, the screen comes on well when the computer wakes up after entering sleep, but the cooler fan does not turn off even after entering sleep.
