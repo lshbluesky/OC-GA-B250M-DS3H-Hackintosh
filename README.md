@@ -12,7 +12,7 @@
 | Ethernet | Realtek PCIe GBE Family Controller |
 
 ## 🍃 macOS & OpenCore Versions
-- macOS Big Sur 11.2
+- macOS Big Sur 11.2.1
 - OpenCore r0.6.6
 
 ## ❄️ ACPI SSDT Hot Patches
