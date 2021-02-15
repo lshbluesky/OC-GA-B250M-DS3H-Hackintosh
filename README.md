@@ -30,6 +30,21 @@
 | 10 | SSDT-XPRW.aml | O | Hot Patch & Override | O |
 | 11 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
+## 🍁 BIOS Settings
+- Hypet-Threading Technology : Enabled
+- Intel Speed Shift Technology : Enabled
+- Fast Boot : Disabled
+- OS Type : Windows 8 / 10
+- Secure Boot : Disabled
+- Serial(COM) Port : Disabled
+- Parallel Port : Disabled
+- XHCI Hand-Off : Enabled
+- Port 60/64 Emulation : Disabled
+- SATA Mode : AHCI
+- VT-d : Disabled
+  - If DisableIoMapper is set to True, VT-d can be set to Enabled.
+- DVMT Pre-Allocated Memory : 128 MB
+
 ## ⚠️ Issues
 - The Sleep and Wake functions do not work.
   - It is speculated that there is a problem with the sleep and wake functions when using only the Intel HD Graphics 630 iGPU.
