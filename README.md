@@ -10,6 +10,7 @@
 | SSD | Samsung 870 EVO SSD 250 GB |
 | Sound | Realtek HD Audio ALC 887 |
 | Ethernet | Realtek PCIe GBE Family Controller |
+| BIOS | AMI UEFI BIOS (Version F9) |
 
 ## 🍃 macOS & OpenCore Versions
 - macOS Big Sur 11.2.1
