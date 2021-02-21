@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+## Did you read the OpenCore Troubleshooting documentation?
+https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/troubleshooting.html
+
 ## System Specification
 - CPU : 
 - MainBoard : 
