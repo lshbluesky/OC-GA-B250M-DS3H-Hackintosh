@@ -14,7 +14,7 @@
 
 ## 🍃 macOS & OpenCore Versions
 - macOS Big Sur 11.2.2
-- OpenCore r0.6.6
+- OpenCore r0.6.7
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
