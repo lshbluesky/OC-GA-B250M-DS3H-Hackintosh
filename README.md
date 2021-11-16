@@ -13,7 +13,7 @@
 | BIOS | AMI UEFI BIOS (Version F9) |
 
 ## 🍃 macOS & OpenCore Versions
-- macOS Big Sur 11.4
+- macOS Monterey 12.0.1
 - OpenCore r0.7.5
 
 ## ❄️ ACPI SSDT Hot Patches
