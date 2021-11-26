@@ -56,7 +56,7 @@
 - Intel HD Graphics 630 QE/CI
 - Intel HD Graphics 630 AGPM
 - Realtek ALC 887
-- Speed Step (XCPM)
+- Speed Step & Power Management (XCPM)
 - Network
 - USB 3.0
 - Night Shift
