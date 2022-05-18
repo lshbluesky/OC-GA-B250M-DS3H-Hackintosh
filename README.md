@@ -13,8 +13,8 @@
 | BIOS | AMI UEFI BIOS (Version F9) |
 
 ## 🍃 macOS & OpenCore Versions
-- macOS Monterey 12.0.1
-- OpenCore r0.7.5
+- macOS Monterey 12.4
+- OpenCore r0.8.0
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
