@@ -111,23 +111,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1NUQQCgDZNQ</data>
+				<data>
+				X1NUQQCgDZNQ
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFNUQQCgDZNQ</data>
+				<data>
+				WFNUQQCgDZNQ
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -141,23 +149,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>R0xCQQEAQGYACFBNRUUBAAZQTUVTARQPX1BSVw==</data>
+				<data>
+				R0xCQQEAQGYACFBNRUUBAAZQTUVTARQPX1BSVw==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>R0xCQQEAQGYACFBNRUUBAAZQTUVTARQPWFBSVw==</data>
+				<data>
+				R0xCQQEAQGYACFBNRUUBAAZQTUVTARQPWFBSVw==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -171,23 +187,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>CZNYRkxUAKQAoQSkCgMUD19QUlc=</data>
+				<data>
+				CZNYRkxUAKQAoQSkCgMUD19QUlc=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>CZNYRkxUAKQAoQSkCgMUD1hQUlc=</data>
+				<data>
+				CZNYRkxUAKQAoQSkCgMUD1hQUlc=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -201,23 +225,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>SUQM/////6QKD6EDpAAUD19QUlc=</data>
+				<data>
+				SUQM/////6QKD6EDpAAUD19QUlc=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>SUQM/////6QKD6EDpAAUD1hQUlc=</data>
+				<data>
+				SUQM/////6QKD6EDpAAUD1hQUlc=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -231,23 +263,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>AxQMX0RTVwNwaFBNRUUUD19QUlc=</data>
+				<data>
+				AxQMX0RTVwNwaFBNRUUUD19QUlc=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>AxQMX0RTVwNwaFBNRUUUD1hQUlc=</data>
+				<data>
+				AxQMX0RTVwNwaFBNRUUUD1hQUlc=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -261,23 +301,31 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1BUUwE=</data>
+				<data>
+				X1BUUwE=
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>OemTableId</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Replace</key>
-				<data>WFBUUwE=</data>
+				<data>
+				WFBUUwE=
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -364,7 +412,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,20,0</string>
 				<key>acpi-wake-type</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
@@ -411,7 +461,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
 				<key>built-in</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 				<key>device_type</key>
 				<string>Ethernet controller</string>
 				<key>model</key>
@@ -503,11 +555,15 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
 				<key>No-hda-gfx</key>
-				<data>AAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAA=
+				</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
-				<data>EQAAAA==</data>
+				<data>
+				EQAAAA==
+				</data>
 				<key>model</key>
 				<string>200 Series PCH HD Audio</string>
 			</dict>
@@ -523,39 +579,67 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AgAmWQ==</data>
+				<data>
+				AgAmWQ==
+				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
-				<data>ElkAAA==</data>
+				<data>
+				ElkAAA==
+				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-agdc</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con2-busid</key>
-				<data>BgAAAA==</data>
+				<data>
+				BgAAAA==
+				</data>
 				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con2-flags</key>
-				<data>xwMAAA==</data>
+				<data>
+				xwMAAA==
+				</data>
 				<key>framebuffer-con2-index</key>
-				<data>AwAAAA==</data>
+				<data>
+				AwAAAA==
+				</data>
 				<key>framebuffer-con2-pipe</key>
-				<data>CgAAAA==</data>
+				<data>
+				CgAAAA==
+				</data>
 				<key>framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
+				<data>
+				AAQAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AAAAAw==</data>
+				<data>
+				AAAAAw==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAABA==</data>
+				<data>
+				AAAABA==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>
+				AAAAgA==
+				</data>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics 630</string>
 				<key>rps-control</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
@@ -796,9 +880,11 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -820,10 +906,10 @@
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
-			<key>CustomSMBIOSGuid</key>
-			<true/>
 			<key>CustomPciSerialDevice</key>
 			<false/>
+			<key>CustomSMBIOSGuid</key>
+			<true/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
@@ -925,12 +1011,8 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -946,9 +1028,11 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data></data>
+			<data>
+			</data>
 			<key>PasswordSalt</key>
-			<data></data>
+			<data>
+			</data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -973,7 +1057,9 @@
 				<key>LineControl</key>
 				<integer>7</integer>
 				<key>PciDeviceInfo</key>
-				<data>/w==</data>
+				<data>
+				/w==
+				</data>
 				<key>RegisterAccessWidth</key>
 				<integer>8</integer>
 				<key>RegisterBase</key>
@@ -992,6 +1078,26 @@
 		</dict>
 		<key>Tools</key>
 		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>CleanNvram</string>
+				<key>Path</key>
+				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -1041,16 +1147,22 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
 				<string>-v keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
-				<data>7w8AAA==</data>
+				<data>
+				7w8AAA==
+				</data>
 				<key>prev-lang:kbd</key>
 				<string>ko:-17409</string>
 			</dict>
@@ -1069,8 +1181,6 @@
 				<string>prev-lang:kbd</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -1112,14 +1222,15 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MaxBIOSVersion</key>
-			<false/>
 			<key>MLB</key>
 			<string></string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1173,9 +1284,9 @@
 			<integer>5</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMin</key>
-			<integer>0</integer>
 			<key>PointerPollMax</key>
+			<integer>0</integer>
+			<key>PointerPollMin</key>
 			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
@@ -1218,6 +1329,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
@@ -1228,6 +1341,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -1238,6 +1353,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1289,10 +1406,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UgaPassThrough</key>
-			<false/>
 			<key>UIScale</key>
 			<integer>0</integer>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
