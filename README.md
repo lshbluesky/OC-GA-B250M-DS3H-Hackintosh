@@ -14,6 +14,7 @@
 
 ## 🍃 macOS & OpenCore Versions
 - macOS Monterey 12.5
+- macOS Ventura 13 Beta
 - OpenCore r0.8.3
 
 ## ❄️ ACPI SSDT Hot Patches
