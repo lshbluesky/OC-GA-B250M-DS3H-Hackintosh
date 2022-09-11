@@ -15,7 +15,7 @@
 ## 🍃 macOS & OpenCore Versions
 - macOS Monterey 12.5
 - macOS Ventura 13 Beta
-- OpenCore r0.8.3
+- OpenCore r0.8.4
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
