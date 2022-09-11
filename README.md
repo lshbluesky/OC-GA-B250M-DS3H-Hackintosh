@@ -12,8 +12,13 @@
 | Ethernet | Realtek PCIe GBE Family Controller |
 | BIOS | AMI UEFI BIOS (Version F9) |
 
-## 🍃 macOS & OpenCore Versions
-- macOS Monterey 12.5
+## 🍃 Supported macOS & OpenCore Versions
+- macOS Sierra 10.12.6
+- macOS High Sierra 10.13.x
+- macOS Mojave 10.14.x
+- macOS Catalina 10.15.x
+- macOS Big Sur 11.x
+- macOS Monterey 12.x
 - macOS Ventura 13 Beta
 - OpenCore r0.8.4
 
