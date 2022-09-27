@@ -532,18 +532,10 @@
 				<string>VGA compatible controller</string>
 				<key>disable-agdc</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-busid</key>
-				<data>BgAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AwYKAAAEAADHAwAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-flags</key>
-				<data>xwMAAA==</data>
-				<key>framebuffer-con2-index</key>
-				<data>AwAAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>CgAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AAAAAw==</data>
 				<key>framebuffer-patch-enable</key>
