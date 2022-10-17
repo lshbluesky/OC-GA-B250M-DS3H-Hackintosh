@@ -28,14 +28,11 @@
 | 1 | SSDT-DMAC.aml | X | Injection | X |
 | 2 | SSDT-EC-USBX.aml | X | Injection | X |
 | 3 | SSDT-HPET.aml | X | Preset Variable Method | O |
-| 4 | SSDT-MATHLDR2_STA.aml | O | Hot Patch & Override | O |
-| 5 | SSDT-MEM2.aml | X | Injection | X |
-| 6 | SSDT-OSYS.aml | X | Assign & Injection | O |
-| 7 | SSDT-PLUG.aml | X | Injection | X |
-| 8 | SSDT-PMCR.aml | X | Injection | X |
-| 9 | SSDT-SBUS-MCHC.aml | X | Injection | X |
-| 10 | SSDT-XPRW.aml | O | Hot Patch & Override | O |
-| 11 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
+| 4 | SSDT-OSYS.aml | X | Assign & Injection | O |
+| 5 | SSDT-PLUG.aml | X | Injection | X |
+| 6 | SSDT-SBUS-MCHC.aml | X | Injection | X |
+| 7 | SSDT-XPRW.aml | O | Hot Patch & Override | O |
+| 8 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
 ## 🍁 BIOS Settings
 - Hypet-Threading Technology : Enabled
