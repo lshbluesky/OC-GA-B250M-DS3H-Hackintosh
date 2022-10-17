@@ -1,11 +1,11 @@
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180427 (64-bit version)(RM)
- * Copyright (c) 2000 - 2018 Intel Corporation
+ * AML/ASL+ Disassembler version 20200925 (64-bit version)
+ * Copyright (c) 2000 - 2020 Intel Corporation
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of SSDT-XPTS.aml, Fri Feb  5 13:27:07 2021
+ * Disassembly of SSDT-XPTS.aml, Mon Oct 17 15:00:01 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -20,15 +20,15 @@
  */
 DefinitionBlock ("", "SSDT", 2, "hack", "XPTS", 0x00000000)
 {
-    External (_SB_.PCI0.XHC_.PMEE, FieldUnitObj)    // (from opcode)
-    External (XPTS, MethodObj)    // 1 Arguments (from opcode)
+    External (_SB_.PCI0.XHC_.PMEE, FieldUnitObj)
+    External (XPTS, MethodObj)    // 1 Arguments
 
     Method (_PTS, 1, NotSerialized)  // _PTS: Prepare To Sleep
     {
         XPTS (Arg0)
         If (LEqual (0x05, Arg0))
         {
-            Store (Zero, \_SB.PCI0.XHC.PMEE)
+            Store (Zero, \_SB.PCI0.XHC.PMEE) /* External reference */
         }
     }
 }

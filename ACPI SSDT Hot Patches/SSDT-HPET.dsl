@@ -1,11 +1,11 @@
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180427 (64-bit version)(RM)
- * Copyright (c) 2000 - 2018 Intel Corporation
+ * AML/ASL+ Disassembler version 20200925 (64-bit version)
+ * Copyright (c) 2000 - 2020 Intel Corporation
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of SSDT-HPET.aml, Fri Feb  5 13:27:07 2021
+ * Disassembly of SSDT-HPET.aml, Mon Oct 17 15:00:01 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -20,8 +20,8 @@
  */
 DefinitionBlock ("", "SSDT", 2, "hack", "HPET", 0x00000000)
 {
-    External (_SB_.PCI0.LPCB.HPET, DeviceObj)    // (from opcode)
-    External (HPTE, FieldUnitObj)    // (from opcode)
+    External (_SB_.PCI0.LPCB.HPET, DeviceObj)
+    External (HPTE, FieldUnitObj)
 
     Scope (\_SB.PCI0.LPCB.HPET)
     {
@@ -29,7 +29,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "HPET", 0x00000000)
         {
             If (_OSI ("Darwin"))
             {
-                Store (Zero, HPTE)
+                Store (Zero, HPTE) /* External reference */
             }
         }
     }

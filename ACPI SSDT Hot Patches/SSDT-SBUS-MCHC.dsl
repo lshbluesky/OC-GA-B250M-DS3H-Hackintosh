@@ -1,27 +1,27 @@
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180427 (64-bit version)(RM)
- * Copyright (c) 2000 - 2018 Intel Corporation
+ * AML/ASL+ Disassembler version 20200925 (64-bit version)
+ * Copyright (c) 2000 - 2020 Intel Corporation
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of SSDT-SBUS-MCHC.aml, Fri Feb  5 13:27:07 2021
+ * Disassembly of SSDT-SBUS-MCHC.aml, Mon Oct 17 15:00:01 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
- *     Length           0x00000140 (320)
+ *     Length           0x000000FC (252)
  *     Revision         0x02
- *     Checksum         0x29
+ *     Checksum         0x63
  *     OEM ID           "ACDT"
  *     OEM Table ID     "MCHCSBUS"
  *     OEM Revision     0x00000000 (0)
  *     Compiler ID      "INTL"
- *     Compiler Version 0x20180427 (538444839)
+ *     Compiler Version 0x20200528 (538969384)
  */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
 {
-    External (_SB_.PCI0, DeviceObj)    // (from opcode)
-    External (_SB_.PCI0.SBUS.BUS0, DeviceObj)    // (from opcode)
+    External (_SB_.PCI0, DeviceObj)
+    External (_SB_.PCI0.SBUS, DeviceObj)
 
     Scope (_SB.PCI0)
     {
@@ -46,6 +46,28 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
     {
         Name (_CID, "smbus")  // _CID: Compatible ID
         Name (_ADR, Zero)  // _ADR: Address
+        Device (DVL0)
+        {
+            Name (_ADR, 0x57)  // _ADR: Address
+            Name (_CID, "diagsvault")  // _CID: Compatible ID
+            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+            {
+                If (LNot (Arg2))
+                {
+                    Return (Buffer (One)
+                    {
+                         0x57                                             // W
+                    })
+                }
+
+                Return (Package (0x02)
+                {
+                    "address", 
+                    0x57
+                })
+            }
+        }
+
         Method (_STA, 0, NotSerialized)  // _STA: Status
         {
             If (_OSI ("Darwin"))
@@ -57,57 +79,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
                 Return (Zero)
             }
         }
-
-        Device (DVL0)
-        {
-            Name (_ADR, 0x57)  // _ADR: Address
-            Name (_CID, "diagsvault")  // _CID: Compatible ID
-            Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
-            {
-                If (LNot (Arg2))
-                {
-                    Return (Buffer (One)
-                    {
-                         0x57                                           
-                    })
-                }
-
-                Return (Package (0x02)
-                {
-                    "address", 
-                    0x57
-                })
-            }
-        }
-    }
-
-    Method (DTGP, 5, NotSerialized)
-    {
-        If (LEqual (Arg0, ToUUID ("a0b5b7c6-1318-441c-b0c9-fe695eaf949b")))
-        {
-            If (LEqual (Arg1, One))
-            {
-                If (LEqual (Arg2, Zero))
-                {
-                    Store (Buffer (One)
-                        {
-                             0x03                                           
-                        }, Arg4)
-                    Return (One)
-                }
-
-                If (LEqual (Arg2, One))
-                {
-                    Return (One)
-                }
-            }
-        }
-
-        Store (Buffer (One)
-            {
-                 0x00                                           
-            }, Arg4)
-        Return (Zero)
     }
 }
 

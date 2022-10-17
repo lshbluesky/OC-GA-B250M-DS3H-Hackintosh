@@ -1,11 +1,11 @@
 /*
  * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20180427 (64-bit version)(RM)
- * Copyright (c) 2000 - 2018 Intel Corporation
+ * AML/ASL+ Disassembler version 20200925 (64-bit version)
+ * Copyright (c) 2000 - 2020 Intel Corporation
  * 
  * Disassembling to non-symbolic legacy ASL operators
  *
- * Disassembly of SSDT-XPRW.aml, Fri Feb  5 13:27:07 2021
+ * Disassembly of SSDT-XPRW.aml, Mon Oct 17 15:00:01 2022
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -20,15 +20,15 @@
  */
 DefinitionBlock ("", "SSDT", 2, "hack", "XPRW", 0x00000000)
 {
-    External (_SB_.PCI0.GLAN, DeviceObj)    // (from opcode)
-    External (_SB_.PCI0.GLAN.XPRW, MethodObj)    // 0 Arguments (from opcode)
-    External (_SB_.PCI0.HDAS, DeviceObj)    // (from opcode)
-    External (_SB_.PCI0.HDAS.XPRW, MethodObj)    // 0 Arguments (from opcode)
-    External (_SB_.PCI0.XDCI, DeviceObj)    // (from opcode)
-    External (_SB_.PCI0.XDCI.XPRW, MethodObj)    // 0 Arguments (from opcode)
-    External (_SB_.PCI0.XHC_, DeviceObj)    // (from opcode)
-    External (_SB_.PCI0.XHC_.XPRW, MethodObj)    // 0 Arguments (from opcode)
-    External (GPRW, MethodObj)    // 2 Arguments (from opcode)
+    External (_SB_.PCI0.GLAN, DeviceObj)
+    External (_SB_.PCI0.GLAN.XPRW, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.HDAS, DeviceObj)
+    External (_SB_.PCI0.HDAS.XPRW, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.XDCI, DeviceObj)
+    External (_SB_.PCI0.XDCI.XPRW, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.XHC_, DeviceObj)
+    External (_SB_.PCI0.XHC_.XPRW, MethodObj)    // 0 Arguments
+    External (GPRW, MethodObj)    // 2 Arguments
 
     Scope (\_SB.PCI0.GLAN)
     {
