@@ -942,9 +942,9 @@
 				<key>FullNvramAccess</key>
 				<false/>
 				<key>Name</key>
-				<string>CleanNvram</string>
+				<string>OpenShell</string>
 				<key>Path</key>
-				<string>CleanNvram.efi</string>
+				<string>OpenShell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -964,9 +964,9 @@
 				<key>FullNvramAccess</key>
 				<false/>
 				<key>Name</key>
-				<string>OpenShell</string>
+				<string>ResetNvramEntry</string>
 				<key>Path</key>
-				<string>OpenShell.efi</string>
+				<string>ResetNvramEntry.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
