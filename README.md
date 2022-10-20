@@ -56,14 +56,15 @@
   - When SSDT-SBUS-MCHC.aml is loaded, the screen comes on well when the computer wakes up after entering sleep, but the cooler fan does not turn off even after entering sleep.
 
 ## ✅ Working
-- Intel HD Graphics 630 QE/CI
-- Intel HD Graphics 630 AGPM
-- Realtek ALC 887
-- Speed Step & Power Management (XCPM)
-- Network
-- USB 3.0
-- Night Shift
-- iMessage & FaceTime
+- [X] Intel HD Graphics 630 QE/CI
+- [X] Intel HD Graphics 630 AGPM
+- [X] Realtek ALC 887
+- [X] Speed Step & Power Management (XCPM)
+- [X] Network
+- [X] USB 3.0
+- [X] Night Shift
+- [X] iCloud & App Store
+- [X] iMessage & FaceTime
 
 ## ❌ Not Working
-- Sleep & Wake
+- [ ] Sleep & Wake
