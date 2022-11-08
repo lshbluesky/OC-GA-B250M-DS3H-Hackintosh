@@ -20,7 +20,7 @@
 - macOS Big Sur 11.x
 - macOS Monterey 12.x
 - macOS Ventura 13.0
-- OpenCore r0.8.5
+- OpenCore r0.8.6
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
