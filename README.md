@@ -1,5 +1,7 @@
 # 🍧 OC-GA-B250M-DS3H-Hackintosh 🍦
 
+![Screenshot](https://user-images.githubusercontent.com/61459016/200479132-435df64d-67d1-4793-b1d9-4dc842a60396.png)
+
 ## 🌿 System Specification
 | Name | Description |
 | - | - |
