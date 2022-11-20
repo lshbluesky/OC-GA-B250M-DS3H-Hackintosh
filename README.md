@@ -37,19 +37,28 @@
 | 8 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
 ## 🍁 BIOS Settings
-- Hypet-Threading Technology : Enabled
-- Intel Speed Shift Technology : Enabled
-- Fast Boot : Disabled
-- OS Type : Windows 8 / 10
-- Secure Boot : Disabled
-- Serial(COM) Port : Disabled
-- Parallel Port : Disabled
-- XHCI Hand-Off : Enabled
-- Port 60/64 Emulation : Disabled
-- SATA Mode : AHCI
-- VT-d : Disabled
-  - If DisableIoMapper is set to True, VT-d can be set to Enabled.
-- DVMT Pre-Allocated Memory : 128 MB
+- M.I.T
+  - Advanced Frequency Settings
+    - Advanced CPU Core Settings
+      - Hypet-Threading Technology : Enabled
+      - Intel Speed Shift Technology : Enabled
+- BIOS
+  - Fast Boot : Disabled
+  - OS Type : Windows 8 / 10
+  - Secure Boot : Disabled
+- Peripherals
+  - Super IO Configuration
+    - Serial(COM) Port : Disabled
+    - Parallel Port : Disabled
+  - USB Configuration
+    - XHCI Hand-Off : Enabled
+    - Port 60/64 Emulation : Disabled
+  - SATA And RST Configuration
+    - SATA Mode : AHCI
+- Chipsets
+  - VT-d : Disabled
+    - If DisableIoMapper is set to True, VT-d can be set to Enabled.
+  - DVMT Pre-Allocated Memory : 128 MB
 
 ## ⚠️ Issues
 - The Sleep and Wake functions do not work.
