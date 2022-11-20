@@ -55,7 +55,7 @@
     - Port 60/64 Emulation : Disabled
   - SATA And RST Configuration
     - SATA Mode : AHCI
-- Chipsets
+- Chipset
   - VT-d : Disabled
     - If DisableIoMapper is set to True, VT-d can be set to Enabled.
   - DVMT Pre-Allocated Memory : 128 MB
