@@ -662,7 +662,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
