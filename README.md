@@ -22,18 +22,18 @@
 - macOS Big Sur 11.x
 - macOS Monterey 12.x
 - macOS Ventura 13.x
-- OpenCore r0.8.6
+- OpenCore r0.8.7
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
 |:-:|:-:|:-:|:-:|:-:|
 | 1 | SSDT-DMAC.aml | X | Injection | X |
 | 2 | SSDT-EC-USBX.aml | X | Injection | X |
-| 3 | SSDT-HPET.aml | X | Preset Variable Method | O |
-| 4 | SSDT-OSYS.aml | X | Assign & Injection | O |
-| 5 | SSDT-PLUG.aml | X | Injection | X |
-| 6 | SSDT-SBUS-MCHC.aml | X | Injection | X |
-| 7 | SSDT-XPRW.aml | O | Hot Patch & Override | O |
+| 3 | SSDT-GPRW.aml | O | Hot Patch & Override | O |
+| 4 | SSDT-HPET.aml | X | Preset Variable Method | O |
+| 5 | SSDT-OSYS.aml | X | Assign & Injection | O |
+| 6 | SSDT-PLUG.aml | X | Injection | X |
+| 7 | SSDT-SBUS-MCHC.aml | X | Injection | X |
 | 8 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
 ## 🍁 BIOS Settings
