@@ -64,11 +64,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable SBUS and MCHC Devices</string>
+				<string>Enable MCHC Device</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>SSDT-MCHC.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -692,9 +692,9 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>NVRAM</string>
 			<key>HibernateSkipsPicker</key>
-			<false/>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
