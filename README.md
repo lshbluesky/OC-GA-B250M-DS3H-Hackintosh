@@ -31,9 +31,9 @@
 | 2 | SSDT-EC-USBX.aml | X | Injection | X |
 | 3 | SSDT-GPRW.aml | O | Hot Patch & Override | O |
 | 4 | SSDT-HPET.aml | X | Preset Variable Method | O |
-| 5 | SSDT-OSYS.aml | X | Assign & Injection | O |
-| 6 | SSDT-PLUG.aml | X | Injection | X |
-| 7 | SSDT-SBUS-MCHC.aml | X | Injection | X |
+| 5 | SSDT-MCHC.aml | X | Injection | X |
+| 6 | SSDT-OSYS.aml | X | Assign & Injection | O |
+| 7 | SSDT-PLUG.aml | X | Injection | X |
 | 8 | SSDT-XPTS.aml | O | Hot Patch & Override | O |
 
 ## 🍁 BIOS Settings
@@ -61,10 +61,21 @@
   - DVMT Pre-Allocated Memory : 128 MB
 
 ## ⚠️ Issues
-- The Sleep and Wake functions do not work.
+- The S3 Sleep and Wake functions do not work.
   - It is speculated that there is a problem with the sleep and wake functions when using only the Intel HD Graphics 630 iGPU.
   - However, depending on whether the SMBus is loaded or not, the operation results of the Sleep and Wake functions will vary.
   - When SSDT-SBUS-MCHC.aml is loaded, the screen comes on well when the computer wakes up after entering sleep, but the cooler fan does not turn off even after entering sleep.
+
+- Hibernate Mode 25 (S4 Sleep) works but there is a glitch issue on first wake up.
+  - There is a problem that a blue glitch screen appears on the first screen of booting from the OpenCore bootloader to macOS when waking up from Hibernation 25 sleep mode.
+
+  - Solution
+    1. The workaround for this issue is to give no input to the keyboard and mouse until the glitch appears and the signal disappears from the monitor screen.
+    2. After the screen is turned off, click the mouse again or press any key on the keyboard to wake the screen up, and the login GUI screen in macOS will display normally after that.
+
+  - Note
+    - When I add AAPL,GfxYTile = 01000000 (Data) properties, a black screen appears instead of a blue glitch screen. Of course, if no input is given to the mouse or keyboard and the monitor signal is lost, wake the screen again and the screen will come back up normally.
+    - And, once I've done the above solution, the next time I wake up from sleep, there's no glitch or black screen problem. This means that after fixing the glitch issue once, Hibernation 25 sleep mode works perfectly. However, when I reset the NVRAM, the glitch or black screen problem occurs again.
 
 ## ✅ Working
 - [X] Intel HD Graphics 630 QE/CI
@@ -76,6 +87,7 @@
 - [X] Night Shift
 - [X] iCloud & App Store
 - [X] iMessage & FaceTime
+- [X] Hibernation 25 (S4 Sleep) & Wake
 
 ## ❌ Not Working
-- [ ] Sleep & Wake
+- None (Everything works. ✨)
