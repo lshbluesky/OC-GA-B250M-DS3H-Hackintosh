@@ -3,9 +3,9 @@
  * AML/ASL+ Disassembler version 20200925 (64-bit version)
  * Copyright (c) 2000 - 2020 Intel Corporation
  * 
- * Disassembling to non-symbolic legacy ASL operators
+ * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-DMAC.aml, Mon Oct 17 15:00:01 2022
+ * Disassembly of SSDT-DMAC.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"

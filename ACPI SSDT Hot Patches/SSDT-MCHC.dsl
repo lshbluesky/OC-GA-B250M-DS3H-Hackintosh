@@ -5,7 +5,7 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-MCHC.aml, Sat Jan 21 17:57:06 2023
+ * Disassembly of SSDT-MCHC.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"

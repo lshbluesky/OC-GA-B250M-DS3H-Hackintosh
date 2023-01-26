@@ -3,9 +3,9 @@
  * AML/ASL+ Disassembler version 20200925 (64-bit version)
  * Copyright (c) 2000 - 2020 Intel Corporation
  * 
- * Disassembling to non-symbolic legacy ASL operators
+ * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-XPTS.aml, Mon Oct 17 15:00:01 2022
+ * Disassembly of SSDT-XPTS.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -26,9 +26,9 @@ DefinitionBlock ("", "SSDT", 2, "hack", "XPTS", 0x00000000)
     Method (_PTS, 1, NotSerialized)  // _PTS: Prepare To Sleep
     {
         XPTS (Arg0)
-        If (LEqual (0x05, Arg0))
+        If ((0x05 == Arg0))
         {
-            Store (Zero, \_SB.PCI0.XHC.PMEE) /* External reference */
+            \_SB.PCI0.XHC.PMEE = Zero
         }
     }
 }

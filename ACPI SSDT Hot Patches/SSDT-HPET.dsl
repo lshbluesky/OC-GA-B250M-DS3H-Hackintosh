@@ -3,9 +3,9 @@
  * AML/ASL+ Disassembler version 20200925 (64-bit version)
  * Copyright (c) 2000 - 2020 Intel Corporation
  * 
- * Disassembling to non-symbolic legacy ASL operators
+ * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-HPET.aml, Mon Oct 17 15:00:01 2022
+ * Disassembly of SSDT-HPET.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -29,7 +29,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "HPET", 0x00000000)
         {
             If (_OSI ("Darwin"))
             {
-                Store (Zero, HPTE) /* External reference */
+                HPTE = Zero
             }
         }
     }

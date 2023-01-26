@@ -3,9 +3,9 @@
  * AML/ASL+ Disassembler version 20200925 (64-bit version)
  * Copyright (c) 2000 - 2020 Intel Corporation
  * 
- * Disassembling to non-symbolic legacy ASL operators
+ * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-EC-USBX.aml, Mon Oct 17 15:00:01 2022
+ * Disassembly of SSDT-EC-USBX.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"
@@ -29,7 +29,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
             Name (_ADR, Zero)  // _ADR: Address
             Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
             {
-                If (LEqual (Arg2, Zero))
+                If ((Arg2 == Zero))
                 {
                     Return (Buffer (One)
                     {

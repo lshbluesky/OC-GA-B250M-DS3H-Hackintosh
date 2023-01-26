@@ -5,7 +5,7 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of SSDT-GPRW.aml, Sat Dec 10 18:42:58 2022
+ * Disassembly of SSDT-GPRW.aml, Thu Jan 26 15:08:24 2023
  *
  * Original Table Header:
  *     Signature        "SSDT"
