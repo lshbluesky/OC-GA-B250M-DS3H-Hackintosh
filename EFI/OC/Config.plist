@@ -378,12 +378,12 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>#AAPL02,override-no-connect</key>
+				<data>AP///////wAEhQMYxgAAAA0eAQSlPCJ4Iuz1p1NPnyYRUFSzDABxT4HAgQCBgJUAswABAQEBKkSAoHA4J0AIIJgEVlAhAAAeAjqAGHE4LUBYLEUAVlAhAAAeAAAA/QAwSx5jEgAKICAgICAgAAAA/AAyN0lQUzc3QUgKICAgADg=</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AgAmWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
-				<key>AAPL02,override-no-connect</key>
-				<data>AP///////wAEhQMYxgAAAA0eAQSlPCJ4Iuz1p1NPnyYRUFSzDABxT4HAgQCBgJUAswABAQEBKkSAoHA4J0AIIJgEVlAhAAAeAjqAGHE4LUBYLEUAVlAhAAAeAAAA/QAwSx5jEgAKICAgICAgAAAA/AAyN0lQUzc3QUgKICAgADg=</data>
 				<key>device-id</key>
 				<data>ElkAAA==</data>
 				<key>device_type</key>
@@ -640,6 +640,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
