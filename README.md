@@ -25,7 +25,7 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14 Beta
-- OpenCore r0.9.2
+- OpenCore r0.9.3
 
 ## 🌾 macOS Sonoma 14.0 Beta
 1. Add the `-lilubetaall` boot arg to boot-args in NVRAM - Add in Config.plist
