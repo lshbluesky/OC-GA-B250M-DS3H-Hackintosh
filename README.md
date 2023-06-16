@@ -28,9 +28,8 @@
 - OpenCore r0.9.3
 
 ## 🌾 macOS Sonoma 14.0 Beta
-1. Add the `-lilubetaall` boot arg to boot-args in NVRAM - Add in Config.plist
-2. Change SMBIOS to `iMac19,1` model in Config.plist
-3. Modify SMBIOS to `iMac19,1` model in Info.plist of USBMap.kext
+1. Change SMBIOS to `iMac19,1` model in Config.plist
+2. Modify SMBIOS to `iMac19,1` model in Info.plist of USBMap.kext
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
@@ -48,25 +47,25 @@
 - M.I.T
   - Advanced Frequency Settings
     - Advanced CPU Core Settings
-      - Hypet-Threading Technology : Enabled
-      - Intel Speed Shift Technology : Enabled
+      - Hypet-Threading Technology : `Enabled`
+      - Intel Speed Shift Technology : `Enabled`
 - BIOS
-  - Fast Boot : Disabled
-  - OS Type : Windows 8 / 10
-  - Secure Boot : Disabled
+  - Fast Boot : `Disabled`
+  - OS Type : `Windows 8 / 10`
+  - Secure Boot : `Disabled`
 - Peripherals
   - Super IO Configuration
-    - Serial(COM) Port : Disabled
-    - Parallel Port : Disabled
+    - Serial(COM) Port : `Disabled`
+    - Parallel Port : `Disabled`
   - USB Configuration
-    - XHCI Hand-Off : Enabled
-    - Port 60/64 Emulation : Disabled
+    - XHCI Hand-Off : `Enabled`
+    - Port 60/64 Emulation : `Disabled`
   - SATA And RST Configuration
-    - SATA Mode : AHCI
+    - SATA Mode : `AHCI`
 - Chipset
-  - VT-d : Disabled
+  - VT-d : `Disabled`
     - If DisableIoMapper is set to True, VT-d can be set to Enabled.
-  - DVMT Pre-Allocated Memory : 128 MB
+  - DVMT Pre-Allocated Memory : `128 MB`
 
 ## ⚠️ Issues
 - The S3 Sleep and Wake functions do not work.
