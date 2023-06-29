@@ -27,10 +27,6 @@
 - macOS Sonoma 14 Beta
 - OpenCore r0.9.3
 
-## 🌾 macOS Sonoma 14.0 Beta
-1. Change SMBIOS to `iMac19,1` model in Config.plist
-2. Modify SMBIOS to `iMac19,1` model in Info.plist of USBMap.kext
-
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
 |:-:|:-:|:-:|:-:|:-:|
