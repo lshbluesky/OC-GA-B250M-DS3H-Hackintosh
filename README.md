@@ -1,8 +1,6 @@
 # 🍧 Gigabyte GA-B250M-DS3H Hackintosh 🍦
 
-![Screenshot](https://user-images.githubusercontent.com/61459016/200479132-435df64d-67d1-4793-b1d9-4dc842a60396.png)
-
-![Sonoma](https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh/assets/61459016/73c89bf8-c3c6-4e20-af53-d48f9b66b509)
+![Sonoma](https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh/assets/61459016/bb3b4292-0f14-4306-ad6b-a2fb392218e9)
 
 ## 🌿 System Specification
 | Name | Description |
@@ -24,7 +22,7 @@
 - macOS Big Sur 11.x
 - macOS Monterey 12.x
 - macOS Ventura 13.x
-- macOS Sonoma 14 Beta
+- macOS Sonoma 14.x
 - OpenCore r0.9.5
 
 ## ❄️ ACPI SSDT Hot Patches
