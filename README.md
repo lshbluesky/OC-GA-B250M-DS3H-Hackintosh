@@ -5,7 +5,7 @@
 ## 🌿 System Specification
 | Name | Description |
 | - | - |
-| CPU | Intel 7th Gen Kaby Lake Core i3 - 7100 3.90 GHz |
+| CPU | Intel 7th Gen Kaby Lake Core i3-7100 3.90 GHz |
 | MainBoard | Gigabyte GA-B250M-DS3H |
 | Graphics | Intel HD Graphics 630 |
 | Memory | DDR4 PC4-19200 2400 MHz 4G x2 |
@@ -23,7 +23,7 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
-- OpenCore r0.9.7
+- OpenCore r0.9.8
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
