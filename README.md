@@ -12,6 +12,7 @@
 | SSD | Samsung 870 EVO SSD 250 GB |
 | Sound | Realtek HD Audio ALC 887 |
 | Ethernet | Realtek PCIe GBE Family Controller |
+| Wi-Fi / Bluetooth | Intel Wi-Fi 6E AX210 160MHz |
 | BIOS | AMI UEFI BIOS (Version F9) |
 
 ## 🍃 Supported macOS & OpenCore Versions
@@ -83,7 +84,9 @@
 - [X] Intel HD Graphics 630 AGPM
 - [X] Realtek ALC 887
 - [X] Speed Step & Power Management (XCPM)
-- [X] Network
+- [X] Realtek Wired Network
+- [X] Intel Wi-Fi 6E AX210 160MHz
+- [X] Intel AX210 Bluetooth
 - [X] USB 3.0
 - [X] Night Shift
 - [X] iCloud & App Store
