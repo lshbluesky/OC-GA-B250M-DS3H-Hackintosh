@@ -1,6 +1,6 @@
 # 🍧 Gigabyte GA-B250M-DS3H Hackintosh 🍦
 
-![Sonoma](https://github.com/lshbluesky/OC-GA-B250M-DS3H-Hackintosh/assets/61459016/bb3b4292-0f14-4306-ad6b-a2fb392218e9)
+![Sequoia](https://github.com/user-attachments/assets/65aa3f35-5683-4b5d-9d8d-689b6140bc05)
 
 ## 🌿 System Specification
 | Name | Description |
@@ -8,7 +8,7 @@
 | CPU | Intel 7th Gen Kaby Lake Core i3-7100 3.90 GHz |
 | MainBoard | Gigabyte GA-B250M-DS3H |
 | Graphics | Intel HD Graphics 630 |
-| Memory | DDR4 PC4-19200 2400 MHz 4G x2 |
+| Memory | DDR4 PC4-19200 2400 MHz 4G x4 |
 | SSD | Samsung 870 EVO SSD 250 GB |
 | Sound | Realtek HD Audio ALC 887 |
 | Ethernet | Realtek PCIe GBE Family Controller |
@@ -24,6 +24,7 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
+- macOS Sequoia 15.x
 - OpenCore r1.0.1
 
 ## ❄️ ACPI SSDT Hot Patches
