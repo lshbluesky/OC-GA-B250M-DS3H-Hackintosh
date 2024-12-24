@@ -92,6 +92,9 @@
 - [X] Night Shift
 - [X] iCloud & App Store
 - [X] iMessage & FaceTime
+- [X] AirDrop (One-Way, Mac -> iPhone)
+- [X] AirPlay
+- [X] Screen Mirroring
 - [X] Hibernation 25 (S4 Sleep) & Wake
 
 ## ❌ Not Working
