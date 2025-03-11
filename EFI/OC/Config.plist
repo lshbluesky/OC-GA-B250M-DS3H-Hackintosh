@@ -164,6 +164,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -813,7 +815,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>24.0.0</string>
+				<string>23.0.0</string>
 				<key>Strategy</key>
 				<string>Exclude</string>
 			</dict>
