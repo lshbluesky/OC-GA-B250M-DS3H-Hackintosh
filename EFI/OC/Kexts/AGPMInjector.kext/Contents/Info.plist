@@ -36,7 +36,7 @@
 			<string>IOPlatformPluginDevice</string>
 			<key>Machines</key>
 			<dict>
-				<key>iMac19,1</key>
+				<key>iMac20,1</key>
 				<dict>
 					<key>IGPU</key>
 					<dict>

@@ -1,6 +1,6 @@
 # 🍧 Gigabyte GA-B250M-DS3H Hackintosh 🍦
 
-![Sequoia](https://github.com/user-attachments/assets/65aa3f35-5683-4b5d-9d8d-689b6140bc05)
+![Tahoe](https://github.com/user-attachments/assets/e13a55f0-2665-43a6-a364-39806617ff3f)
 
 ## 🌿 System Specification
 | Name | Description |
@@ -25,6 +25,7 @@
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
 - macOS Sequoia 15.x
+- macOS Tahoe 26.x
 - OpenCore r1.0.5
 
 ## ❄️ ACPI SSDT Hot Patches
