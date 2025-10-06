@@ -574,11 +574,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>PlistPath</key>
@@ -592,11 +592,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IO80211FamilyLegacy</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>PlistPath</key>
@@ -610,11 +610,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirPortBrcmNIC</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>PlistPath</key>
@@ -628,11 +628,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AMFIPass</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>PlistPath</key>
@@ -646,11 +646,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>24.0.0</string>
 				<key>PlistPath</key>
@@ -809,11 +809,11 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>24.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Strategy</key>
@@ -981,7 +981,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1159,7 +1159,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
