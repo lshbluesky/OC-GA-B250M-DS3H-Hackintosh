@@ -26,7 +26,7 @@
 - macOS Sonoma 14.x
 - macOS Sequoia 15.x
 - macOS Tahoe 26.x
-- OpenCore r1.0.6
+- OpenCore r1.0.7
 
 ## ❄️ ACPI SSDT Hot Patches
 | No. | SSDT Name | ACPI Rename Required | ACPI Patch Type | OEM DSDT Override |
